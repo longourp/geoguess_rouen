@@ -1,0 +1,333 @@
+[
+  {
+    "id": "cathedrale-notre-dame",
+    "name": "Cathédrale Notre-Dame de Rouen",
+    "aliases": ["Cathédrale de Rouen", "Notre-Dame de Rouen", "La cathédrale"],
+    "type": "monument",
+    "tags": [
+      "monument",
+      "edifice-religieux",
+      "gothique",
+      "medieval",
+      "rive-droite",
+      "impressionnisme"
+    ],
+    "notoriety": 96,
+    "blurb": "Chef-d'œuvre gothique, immortalisé par la série de toiles de Claude Monet."
+  },
+  {
+    "id": "eglise-saint-ouen",
+    "name": "Abbatiale Saint-Ouen",
+    "aliases": ["Église Saint-Ouen", "Saint-Ouen", "Abbaye Saint-Ouen"],
+    "type": "monument",
+    "tags": ["monument", "edifice-religieux", "gothique", "flamboyant", "medieval", "rive-droite"],
+    "notoriety": 66,
+    "blurb": "Ancienne abbatiale gothique réputée pour son grand orgue Cavaillé-Coll."
+  },
+  {
+    "id": "eglise-saint-maclou",
+    "name": "Église Saint-Maclou",
+    "aliases": ["Saint-Maclou"],
+    "type": "monument",
+    "tags": ["monument", "edifice-religieux", "gothique", "flamboyant", "medieval", "rive-droite"],
+    "notoriety": 60,
+    "blurb": "Joyau du gothique flamboyant, à la façade en éventail."
+  },
+  {
+    "id": "eglise-saint-godard",
+    "name": "Église Saint-Godard",
+    "aliases": ["Saint-Godard"],
+    "type": "monument",
+    "tags": ["monument", "edifice-religieux", "gothique", "medieval", "rive-droite"],
+    "notoriety": 26,
+    "blurb": "Église gothique connue pour ses vitraux du XVIe siècle."
+  },
+  {
+    "id": "eglise-saint-patrice",
+    "name": "Église Saint-Patrice",
+    "aliases": ["Saint-Patrice"],
+    "type": "monument",
+    "tags": ["monument", "edifice-religieux", "renaissance", "rive-droite"],
+    "notoriety": 22,
+    "blurb": "Renommée pour son exceptionnel ensemble de vitraux Renaissance."
+  },
+  {
+    "id": "eglise-sainte-jeanne-d-arc",
+    "name": "Église Sainte-Jeanne-d'Arc",
+    "aliases": ["Sainte-Jeanne-d'Arc", "Église Jeanne d'Arc"],
+    "type": "monument",
+    "tags": ["monument", "edifice-religieux", "jeanne-d-arc", "rive-droite"],
+    "notoriety": 50,
+    "blurb": "Église moderne (1979) sur la place du Vieux-Marché, à l'architecture en forme de drakkar."
+  },
+  {
+    "id": "gros-horloge",
+    "name": "Gros-Horloge",
+    "aliases": ["Le Gros-Horloge", "Grosse Horloge"],
+    "type": "monument",
+    "tags": ["monument", "renaissance", "medieval", "rive-droite"],
+    "notoriety": 88,
+    "blurb": "Horloge astronomique du XIVe siècle enchâssée dans une arche Renaissance."
+  },
+  {
+    "id": "aitre-saint-maclou",
+    "name": "Aître Saint-Maclou",
+    "aliases": ["Aitre Saint-Maclou", "L'Aître Saint-Maclou"],
+    "type": "monument",
+    "tags": ["monument", "flamboyant", "medieval", "rive-droite"],
+    "notoriety": 52,
+    "blurb": "Ancien ossuaire de la peste, orné de bois sculptés macabres."
+  },
+  {
+    "id": "palais-de-justice",
+    "name": "Palais de justice de Rouen",
+    "aliases": ["Palais de Justice", "Parlement de Normandie", "Ancien Parlement de Normandie"],
+    "type": "monument",
+    "tags": ["monument", "gothique", "flamboyant", "renaissance", "medieval", "rive-droite"],
+    "notoriety": 54,
+    "blurb": "Ancien Parlement de Normandie, à la façade gothique flamboyant richement ouvragée."
+  },
+  {
+    "id": "tour-jeanne-d-arc",
+    "name": "Tour Jeanne d'Arc",
+    "aliases": ["Donjon de Rouen", "Tour Jeanne-d'Arc"],
+    "type": "monument",
+    "tags": ["monument", "medieval", "jeanne-d-arc", "rive-droite"],
+    "notoriety": 56,
+    "blurb": "Donjon du château de Philippe Auguste où Jeanne d'Arc fut menacée de la torture."
+  },
+  {
+    "id": "place-du-vieux-marche",
+    "name": "Place du Vieux-Marché",
+    "aliases": ["Vieux-Marché", "Place du Vieux Marché"],
+    "type": "monument",
+    "tags": ["monument", "jeanne-d-arc", "medieval", "rive-droite"],
+    "notoriety": 70,
+    "blurb": "Place historique où Jeanne d'Arc fut brûlée le 30 mai 1431."
+  },
+  {
+    "id": "hotel-de-bourgtheroulde",
+    "name": "Hôtel de Bourgtheroulde",
+    "aliases": ["Bourgtheroulde", "Hotel de Bourgtheroulde"],
+    "type": "monument",
+    "tags": ["monument", "renaissance", "rive-droite"],
+    "notoriety": 30,
+    "blurb": "Hôtel particulier Renaissance, aujourd'hui hôtel de luxe."
+  },
+  {
+    "id": "bureau-des-finances",
+    "name": "Bureau des Finances",
+    "aliases": ["Ancien Bureau des Finances", "Office de tourisme"],
+    "type": "monument",
+    "tags": ["monument", "renaissance", "rive-droite"],
+    "notoriety": 18,
+    "blurb": "Premier édifice Renaissance de Rouen, face à la cathédrale ; abrite l'office de tourisme."
+  },
+  {
+    "id": "musee-des-beaux-arts",
+    "name": "Musée des Beaux-Arts de Rouen",
+    "aliases": ["Beaux-Arts", "Musée des Beaux-Arts"],
+    "type": "museum",
+    "tags": ["musee", "peintre", "rive-droite"],
+    "notoriety": 56,
+    "blurb": "Riche collection allant des primitifs à l'impressionnisme."
+  },
+  {
+    "id": "musee-le-secq-des-tournelles",
+    "name": "Musée Le Secq des Tournelles",
+    "aliases": ["Le Secq des Tournelles", "Musée de la ferronnerie"],
+    "type": "museum",
+    "tags": ["musee", "gothique", "medieval", "rive-droite"],
+    "notoriety": 30,
+    "blurb": "Musée de la ferronnerie installé dans l'ancienne église gothique Saint-Laurent."
+  },
+  {
+    "id": "musee-de-la-ceramique",
+    "name": "Musée de la Céramique",
+    "aliases": ["Musée de la céramique"],
+    "type": "museum",
+    "tags": ["musee", "rive-droite"],
+    "notoriety": 24,
+    "blurb": "Consacré à la faïence de Rouen, dans un hôtel particulier du XVIIe siècle."
+  },
+  {
+    "id": "museum-histoire-naturelle",
+    "name": "Muséum d'histoire naturelle de Rouen",
+    "aliases": ["Muséum de Rouen", "Museum d'histoire naturelle"],
+    "type": "museum",
+    "tags": ["musee", "rive-droite"],
+    "notoriety": 34,
+    "blurb": "L'un des plus riches muséums de France, fondé au XIXe siècle."
+  },
+  {
+    "id": "historial-jeanne-d-arc",
+    "name": "Historial Jeanne d'Arc",
+    "aliases": ["Historial Jeanne-d'Arc", "Historial"],
+    "type": "museum",
+    "tags": ["musee", "jeanne-d-arc", "medieval", "rive-droite"],
+    "notoriety": 46,
+    "blurb": "Parcours immersif sur Jeanne d'Arc, dans le palais archiépiscopal médiéval."
+  },
+  {
+    "id": "musee-des-antiquites",
+    "name": "Musée des Antiquités",
+    "aliases": ["Musée des antiquités de Rouen"],
+    "type": "museum",
+    "tags": ["musee", "medieval", "rive-droite"],
+    "notoriety": 26,
+    "blurb": "Collections archéologiques et médiévales dans un ancien couvent."
+  },
+  {
+    "id": "panorama-xxl",
+    "name": "Panorama XXL",
+    "aliases": ["Panorama"],
+    "type": "museum",
+    "tags": ["musee", "seine", "rive-droite"],
+    "notoriety": 40,
+    "blurb": "Rotonde présentant de gigantesques fresques panoramiques, sur les quais."
+  },
+  {
+    "id": "gustave-flaubert",
+    "name": "Gustave Flaubert",
+    "aliases": ["Flaubert"],
+    "type": "person",
+    "tags": ["personne", "ne-a-rouen", "ecrivain"],
+    "notoriety": 82,
+    "blurb": "Écrivain né à Rouen en 1821, auteur de Madame Bovary."
+  },
+  {
+    "id": "pierre-corneille",
+    "name": "Pierre Corneille",
+    "aliases": ["Corneille"],
+    "type": "person",
+    "tags": ["personne", "ne-a-rouen", "ecrivain"],
+    "notoriety": 72,
+    "blurb": "Dramaturge né à Rouen en 1606, auteur du Cid."
+  },
+  {
+    "id": "theodore-gericault",
+    "name": "Théodore Géricault",
+    "aliases": ["Géricault", "Gericault"],
+    "type": "person",
+    "tags": ["personne", "ne-a-rouen", "peintre"],
+    "notoriety": 60,
+    "blurb": "Peintre né à Rouen en 1791, auteur du Radeau de la Méduse."
+  },
+  {
+    "id": "fontenelle",
+    "name": "Bernard Le Bovier de Fontenelle",
+    "aliases": ["Fontenelle"],
+    "type": "person",
+    "tags": ["personne", "ne-a-rouen", "ecrivain"],
+    "notoriety": 28,
+    "blurb": "Écrivain et savant né à Rouen en 1657, neveu de Corneille."
+  },
+  {
+    "id": "armand-salacrou",
+    "name": "Armand Salacrou",
+    "aliases": ["Salacrou"],
+    "type": "person",
+    "tags": ["personne", "ne-a-rouen", "ecrivain"],
+    "notoriety": 16,
+    "blurb": "Dramaturge né à Rouen en 1899."
+  },
+  {
+    "id": "cavelier-de-la-salle",
+    "name": "Cavelier de La Salle",
+    "aliases": ["Robert Cavelier de La Salle", "La Salle"],
+    "type": "person",
+    "tags": ["personne", "ne-a-rouen"],
+    "notoriety": 30,
+    "blurb": "Explorateur né à Rouen en 1643, qui descendit le Mississippi."
+  },
+  {
+    "id": "jean-lecanuet",
+    "name": "Jean Lecanuet",
+    "aliases": ["Lecanuet"],
+    "type": "person",
+    "tags": ["personne", "ne-a-rouen"],
+    "notoriety": 22,
+    "blurb": "Homme politique né à Rouen en 1920, longtemps maire de la ville."
+  },
+  {
+    "id": "quartier-saint-sever",
+    "name": "Saint-Sever",
+    "aliases": ["Quartier Saint-Sever"],
+    "type": "neighborhood",
+    "tags": ["quartier", "rive-gauche", "seine"],
+    "notoriety": 40,
+    "blurb": "Principal quartier commerçant de la rive gauche."
+  },
+  {
+    "id": "quartier-grammont",
+    "name": "Grammont",
+    "aliases": ["Quartier Grammont"],
+    "type": "neighborhood",
+    "tags": ["quartier", "rive-gauche"],
+    "notoriety": 20,
+    "blurb": "Quartier résidentiel de la rive gauche."
+  },
+  {
+    "id": "quartier-jardin-des-plantes",
+    "name": "Jardin des Plantes",
+    "aliases": ["Quartier du Jardin des Plantes"],
+    "type": "neighborhood",
+    "tags": ["quartier", "rive-gauche"],
+    "notoriety": 28,
+    "blurb": "Quartier de la rive gauche organisé autour de son jardin botanique."
+  },
+  {
+    "id": "ile-lacroix",
+    "name": "Île Lacroix",
+    "aliases": ["Ile Lacroix"],
+    "type": "neighborhood",
+    "tags": ["quartier", "rive-gauche", "seine"],
+    "notoriety": 36,
+    "blurb": "Île de la Seine accueillant des équipements sportifs."
+  },
+  {
+    "id": "quartier-jouvenet",
+    "name": "Jouvenet",
+    "aliases": ["Quartier Jouvenet"],
+    "type": "neighborhood",
+    "tags": ["quartier", "rive-droite"],
+    "notoriety": 18,
+    "blurb": "Quartier résidentiel des coteaux de la rive droite."
+  },
+  {
+    "id": "pont-gustave-flaubert",
+    "name": "Pont Gustave-Flaubert",
+    "aliases": ["Pont Flaubert"],
+    "type": "bridge",
+    "tags": ["pont", "seine"],
+    "notoriety": 52,
+    "blurb": "Pont levant spectaculaire inauguré en 2008."
+  },
+  {
+    "id": "pont-boieldieu",
+    "name": "Pont Boieldieu",
+    "aliases": ["Pont Boïeldieu"],
+    "type": "bridge",
+    "tags": ["pont", "seine"],
+    "notoriety": 26,
+    "blurb": "Pont central reliant les deux rives au cœur de la ville."
+  },
+  {
+    "id": "pont-corneille",
+    "name": "Pont Corneille",
+    "aliases": [],
+    "type": "bridge",
+    "tags": ["pont", "seine"],
+    "notoriety": 28,
+    "blurb": "Pont nommé en hommage au dramaturge rouennais."
+  },
+  {
+    "id": "pont-jeanne-d-arc",
+    "name": "Pont Jeanne-d'Arc",
+    "aliases": ["Pont Jeanne d'Arc"],
+    "type": "bridge",
+    "tags": ["pont", "seine", "jeanne-d-arc"],
+    "notoriety": 24,
+    "blurb": "Pont enjambant la Seine, dans l'axe du centre historique."
+  }
+]

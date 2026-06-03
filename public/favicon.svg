@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="GéoGuess Rouen">
+  <rect width="64" height="64" rx="12" fill="#0f3d5c" />
+  <g fill="none" stroke="#c8a24a" stroke-width="3">
+    <rect x="14" y="14" width="36" height="36" rx="3" />
+    <line x1="26" y1="14" x2="26" y2="50" />
+    <line x1="38" y1="14" x2="38" y2="50" />
+    <line x1="14" y1="26" x2="50" y2="26" />
+    <line x1="14" y1="38" x2="50" y2="38" />
+  </g>
+  <circle cx="44" cy="44" r="4.5" fill="#fff" />
+</svg>

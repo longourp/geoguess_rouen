@@ -1,0 +1,33 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.puzzleTitle {
+  margin: 0;
+  text-align: center;
+  font-size: 1.05rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.feedback {
+  margin: 0;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  min-height: 1.2em;
+}
+
+.feedback[data-kind='correct'] {
+  color: var(--good);
+}
+
+.feedback[data-kind='wrong'] {
+  color: var(--bad);
+}
+
+.feedback[data-kind='duplicate'] {
+  color: var(--warn);
+}

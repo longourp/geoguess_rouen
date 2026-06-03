@@ -1,0 +1,117 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 35, 50, 0.55);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1.2rem;
+  overflow-y: auto;
+  z-index: 20;
+}
+
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.4rem;
+  width: 100%;
+  max-width: 560px;
+  margin: auto;
+}
+
+.heading {
+  margin: 0 0 0.3rem;
+  text-align: center;
+  color: var(--primary);
+}
+
+.score {
+  margin: 0 0 1rem;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.score span {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.actions {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+}
+
+.primary,
+.secondary {
+  border: 0;
+  border-radius: 8px;
+  padding: 0.6rem 1.3rem;
+  font-weight: 600;
+}
+
+.primary {
+  background: var(--primary);
+  color: #fff;
+}
+
+.secondary {
+  background: #ece7da;
+  color: var(--ink);
+}
+
+.solTitle {
+  margin: 0 0 0.6rem;
+  font-size: 1rem;
+}
+
+.solutions {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.6rem;
+}
+
+.sol {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.solHead {
+  background: #f3f0e8;
+  padding: 0.35rem 0.5rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.solList {
+  list-style: none;
+  margin: 0;
+  padding: 0.3rem 0.5rem;
+}
+
+.solList li {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  padding: 0.12rem 0;
+}
+
+.pts {
+  color: var(--good);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.picked {
+  background: #eef5ef;
+  border-radius: 4px;
+  font-weight: 700;
+}

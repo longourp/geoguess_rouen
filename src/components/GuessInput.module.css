@@ -1,0 +1,88 @@
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.8rem;
+  box-shadow: var(--shadow);
+}
+
+.prompt {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+
+.prompt strong {
+  color: var(--ink);
+}
+
+.close {
+  margin-left: auto;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input {
+  flex: 1;
+  padding: 0.55rem 0.7rem;
+  font-size: 1rem;
+  border: 2px solid var(--line);
+  border-radius: 8px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.submit {
+  border: 0;
+  background: var(--primary);
+  color: #fff;
+  font-weight: 600;
+  padding: 0 1rem;
+  border-radius: 8px;
+}
+
+.hint {
+  margin: 0.5rem 0 0;
+  font-size: 0.8rem;
+  color: var(--bad);
+}
+
+.suggestions {
+  list-style: none;
+  margin: 0.6rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.suggestion {
+  width: 100%;
+  text-align: left;
+  border: 1px solid var(--line);
+  background: #fbfaf6;
+  padding: 0.5rem 0.7rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.suggestion:hover {
+  border-color: var(--accent);
+  background: #fff;
+}

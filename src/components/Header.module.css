@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0.85rem 1.1rem;
+  background: var(--primary);
+  color: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: var(--accent);
+}
+
+.title {
+  font-size: 1.25rem;
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.modes {
+  display: inline-flex;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  padding: 3px;
+}
+
+.mode,
+.modeActive {
+  border: 0;
+  background: transparent;
+  color: #e9eef2;
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+.modeActive {
+  background: #fff;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.help {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: transparent;
+  color: #fff;
+  font-weight: 700;
+}
+
+.help:hover {
+  background: rgba(255, 255, 255, 0.15);
+}

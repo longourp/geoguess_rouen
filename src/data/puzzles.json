@@ -1,0 +1,16 @@
+[
+  {
+    "id": "patrimoine-2026-06-03",
+    "date": "2026-06-03",
+    "title": "Patrimoine rouennais",
+    "rowCategoryIds": ["jeanne-d-arc", "gothique", "edifice-religieux"],
+    "colCategoryIds": ["rive-droite", "monument", "medieval"]
+  },
+  {
+    "id": "pierres-et-clochers-2026-06-04",
+    "date": "2026-06-04",
+    "title": "Pierres et clochers",
+    "rowCategoryIds": ["edifice-religieux", "medieval", "flamboyant"],
+    "colCategoryIds": ["rive-droite", "monument", "gothique"]
+  }
+]

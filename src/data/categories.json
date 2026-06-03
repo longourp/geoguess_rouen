@@ -1,0 +1,104 @@
+[
+  {
+    "id": "edifice-religieux",
+    "label": "Édifice religieux",
+    "description": "Église, abbatiale ou autre lieu de culte.",
+    "match": { "anyOf": ["edifice-religieux"] }
+  },
+  {
+    "id": "monument",
+    "label": "Monument remarquable",
+    "description": "Édifice ou lieu bâti emblématique de Rouen.",
+    "match": { "anyOf": ["monument"] }
+  },
+  {
+    "id": "musee",
+    "label": "Musée",
+    "description": "Établissement muséal rouennais.",
+    "match": { "anyOf": ["musee"] }
+  },
+  {
+    "id": "quartier",
+    "label": "Quartier",
+    "description": "Quartier ou secteur de la ville de Rouen.",
+    "match": { "anyOf": ["quartier"] }
+  },
+  {
+    "id": "pont",
+    "label": "Pont sur la Seine",
+    "description": "Pont franchissant la Seine à Rouen.",
+    "match": { "anyOf": ["pont"] }
+  },
+  {
+    "id": "personnalite",
+    "label": "Personnalité",
+    "description": "Femme ou homme célèbre lié à Rouen.",
+    "match": { "anyOf": ["personne"] }
+  },
+  {
+    "id": "ne-a-rouen",
+    "label": "Né(e) à Rouen",
+    "description": "Personnalité née à Rouen.",
+    "match": { "allOf": ["personne", "ne-a-rouen"] }
+  },
+  {
+    "id": "ecrivain",
+    "label": "Femme ou homme de lettres",
+    "description": "Écrivain, dramaturge ou philosophe.",
+    "match": { "anyOf": ["ecrivain"] }
+  },
+  {
+    "id": "peintre",
+    "label": "Lié à la peinture",
+    "description": "Peintre célèbre ou haut lieu de la peinture.",
+    "match": { "anyOf": ["peintre", "impressionnisme"] }
+  },
+  {
+    "id": "gothique",
+    "label": "Architecture gothique",
+    "description": "De style gothique.",
+    "match": { "anyOf": ["gothique"] }
+  },
+  {
+    "id": "flamboyant",
+    "label": "Gothique flamboyant",
+    "description": "Du style gothique flamboyant (XVe siècle).",
+    "match": { "anyOf": ["flamboyant"] }
+  },
+  {
+    "id": "renaissance",
+    "label": "Renaissance",
+    "description": "De l'époque de la Renaissance.",
+    "match": { "anyOf": ["renaissance"] }
+  },
+  {
+    "id": "medieval",
+    "label": "Moyen Âge",
+    "description": "Datant du Moyen Âge.",
+    "match": { "anyOf": ["medieval"] }
+  },
+  {
+    "id": "jeanne-d-arc",
+    "label": "Lié à Jeanne d'Arc",
+    "description": "En lien avec Jeanne d'Arc, jugée et brûlée à Rouen en 1431.",
+    "match": { "anyOf": ["jeanne-d-arc"] }
+  },
+  {
+    "id": "rive-droite",
+    "label": "Rive droite",
+    "description": "Situé sur la rive droite de la Seine.",
+    "match": { "anyOf": ["rive-droite"] }
+  },
+  {
+    "id": "rive-gauche",
+    "label": "Rive gauche",
+    "description": "Situé sur la rive gauche de la Seine.",
+    "match": { "anyOf": ["rive-gauche"] }
+  },
+  {
+    "id": "seine",
+    "label": "Lié à la Seine",
+    "description": "En bord de Seine ou franchissant le fleuve.",
+    "match": { "anyOf": ["seine"] }
+  }
+]
