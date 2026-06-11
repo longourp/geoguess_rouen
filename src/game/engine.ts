@@ -1,9 +1,9 @@
-import { getCategory } from '../data';
 import type { Category, CategoryMatch, Entity, Puzzle } from '../data/schema';
 
 /**
- * Pure game logic. NO React, NO data imports beyond the typed catalog helpers,
- * so every rule here is trivially unit-testable.
+ * Pure game logic. NO React, NO data imports — the content (entities,
+ * categories) is always passed in, so the engine works with any game pack
+ * and every rule here is trivially unit-testable.
  *
  * Validity is always *computed* from entity tags + category predicates — a
  * cell's valid answers are never hardcoded. Rarity points come from each
@@ -58,13 +58,21 @@ export function matchesCategory(entity: Entity, category: Category): boolean {
   return matchesPredicate(entity.tags, category.match);
 }
 
+/** Resolves a category id within a pack's category list, throwing on unknowns. */
+export function categoryById(categories: readonly Category[], id: string): Category {
+  const category = categories.find((c) => c.id === id);
+  if (!category) throw new Error(`Unknown category id: ${id}`);
+  return category;
+}
+
 export function cellCategories(
   puzzle: Puzzle,
   cellIndex: number,
+  categories: readonly Category[],
 ): { row: Category; col: Category } {
   return {
-    row: getCategory(puzzle.rowCategoryIds[rowOf(cellIndex)]),
-    col: getCategory(puzzle.colCategoryIds[colOf(cellIndex)]),
+    row: categoryById(categories, puzzle.rowCategoryIds[rowOf(cellIndex)]),
+    col: categoryById(categories, puzzle.colCategoryIds[colOf(cellIndex)]),
   };
 }
 
@@ -128,9 +136,13 @@ export function scoreEntityInCell(
 }
 
 /** Valid answers per cell, indexed by cell (0..CELL_COUNT-1). */
-export function candidatesPerCell(puzzle: Puzzle, entities: Entity[]): Entity[][] {
+export function candidatesPerCell(
+  puzzle: Puzzle,
+  entities: Entity[],
+  categories: readonly Category[],
+): Entity[][] {
   return Array.from({ length: CELL_COUNT }, (_, i) => {
-    const { row, col } = cellCategories(puzzle, i);
+    const { row, col } = cellCategories(puzzle, i, categories);
     return validAnswersForCell(entities, row, col);
   });
 }
@@ -141,8 +153,14 @@ export function candidatesPerCell(puzzle: Puzzle, entities: Entity[]): Entity[][
  * or null if the grid cannot be completed. Used by the validator and the
  * end-of-game "reveal a solution" feature.
  */
-export function findSolution(puzzle: Puzzle, entities: Entity[]): Map<number, string> | null {
-  const candidates = candidatesPerCell(puzzle, entities).map((list) => list.map((e) => e.id));
+export function findSolution(
+  puzzle: Puzzle,
+  entities: Entity[],
+  categories: readonly Category[],
+): Map<number, string> | null {
+  const candidates = candidatesPerCell(puzzle, entities, categories).map((list) =>
+    list.map((e) => e.id),
+  );
   const entityToCell = new Map<string, number>();
 
   const assign = (cell: number, seen: Set<string>): boolean => {

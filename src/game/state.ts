@@ -1,4 +1,4 @@
-import type { Entity, Puzzle } from '../data/schema';
+import type { Category, Entity, Puzzle } from '../data/schema';
 import {
   CELL_COUNT,
   SCORING,
@@ -44,6 +44,7 @@ export type GameAction = { type: 'guess'; cellIndex: number; entity: Entity } | 
 export interface GameContext {
   puzzle: Puzzle;
   entities: Entity[];
+  categories: Category[];
   scoring?: ScoringConfig;
 }
 
@@ -79,7 +80,7 @@ export function createReducer(ctx: GameContext) {
     const { cellIndex, entity } = action;
     if (state.placed[cellIndex]) return state; // cell already solved
 
-    const { row, col } = cellCategories(ctx.puzzle, cellIndex);
+    const { row, col } = cellCategories(ctx.puzzle, cellIndex, ctx.categories);
 
     if (!matchesCategory(entity, row) || !matchesCategory(entity, col)) {
       const errors = state.errors + 1;

@@ -14,6 +14,7 @@ export const ENTITY_TYPES = [
   'bridge',
   'person',
   'event',
+  'station',
 ] as const;
 
 /** Stable identifier: lowercase kebab-case. Puzzles reference entities and
@@ -69,48 +70,68 @@ export const PuzzleSchema = z.object({
   colCategoryIds: z.array(slug).length(3),
 });
 
-/** The whole content bundle, with referential-integrity checks so loading
+/** Identity of a game pack — one self-contained game (entities + categories
+ * + puzzles) selectable from the UI. */
+export const PackMetaSchema = z.object({
+  id: slug,
+  /** Game title shown in the header and the share text. */
+  title: z.string().min(1),
+  /** One-line pitch shown in the help modal. */
+  description: z.string().min(1),
+});
+
+const contentShape = {
+  entities: z.array(EntitySchema),
+  categories: z.array(CategorySchema),
+  puzzles: z.array(PuzzleSchema),
+};
+
+/** Referential-integrity checks shared by every content bundle, so loading
  * invalid data throws immediately rather than failing deep in the UI. */
-export const GameDataSchema = z
-  .object({
-    entities: z.array(EntitySchema),
-    categories: z.array(CategorySchema),
-    puzzles: z.array(PuzzleSchema),
-  })
-  .superRefine((data, ctx) => {
-    const duplicates = (values: string[]): string[] => {
-      const seen = new Set<string>();
-      const dups = new Set<string>();
-      for (const value of values) {
-        if (seen.has(value)) dups.add(value);
-        seen.add(value);
-      }
-      return [...dups];
-    };
+function checkIntegrity(
+  data: { entities: Entity[]; categories: Category[]; puzzles: Puzzle[] },
+  ctx: z.RefinementCtx,
+): void {
+  const duplicates = (values: string[]): string[] => {
+    const seen = new Set<string>();
+    const dups = new Set<string>();
+    for (const value of values) {
+      if (seen.has(value)) dups.add(value);
+      seen.add(value);
+    }
+    return [...dups];
+  };
 
-    const report = (kind: string, dups: string[]) => {
-      for (const value of dups) {
-        ctx.addIssue({ code: z.ZodIssueCode.custom, message: `duplicate ${kind}: ${value}` });
-      }
-    };
+  const report = (kind: string, dups: string[]) => {
+    for (const value of dups) {
+      ctx.addIssue({ code: z.ZodIssueCode.custom, message: `duplicate ${kind}: ${value}` });
+    }
+  };
 
-    report('entity id', duplicates(data.entities.map((e) => e.id)));
-    report('category id', duplicates(data.categories.map((c) => c.id)));
-    report('puzzle id', duplicates(data.puzzles.map((p) => p.id)));
-    report('puzzle date', duplicates(data.puzzles.map((p) => p.date)));
+  report('entity id', duplicates(data.entities.map((e) => e.id)));
+  report('category id', duplicates(data.categories.map((c) => c.id)));
+  report('puzzle id', duplicates(data.puzzles.map((p) => p.id)));
+  report('puzzle date', duplicates(data.puzzles.map((p) => p.date)));
 
-    const categoryIds = new Set(data.categories.map((c) => c.id));
-    for (const puzzle of data.puzzles) {
-      for (const id of [...puzzle.rowCategoryIds, ...puzzle.colCategoryIds]) {
-        if (!categoryIds.has(id)) {
-          ctx.addIssue({
-            code: z.ZodIssueCode.custom,
-            message: `puzzle "${puzzle.id}" references unknown category "${id}"`,
-          });
-        }
+  const categoryIds = new Set(data.categories.map((c) => c.id));
+  for (const puzzle of data.puzzles) {
+    for (const id of [...puzzle.rowCategoryIds, ...puzzle.colCategoryIds]) {
+      if (!categoryIds.has(id)) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          message: `puzzle "${puzzle.id}" references unknown category "${id}"`,
+        });
       }
     }
-  });
+  }
+}
+
+export const GameDataSchema = z.object(contentShape).superRefine(checkIntegrity);
+
+/** A full game pack: meta + content, validated as one unit. */
+export const GamePackSchema = z
+  .object({ meta: PackMetaSchema, ...contentShape })
+  .superRefine(checkIntegrity);
 
 export type EntityType = (typeof ENTITY_TYPES)[number];
 export type Entity = z.infer<typeof EntitySchema>;
@@ -118,3 +139,5 @@ export type CategoryMatch = z.infer<typeof CategoryMatchSchema>;
 export type Category = z.infer<typeof CategorySchema>;
 export type Puzzle = z.infer<typeof PuzzleSchema>;
 export type GameData = z.infer<typeof GameDataSchema>;
+export type PackMeta = z.infer<typeof PackMetaSchema>;
+export type GamePack = z.infer<typeof GamePackSchema>;

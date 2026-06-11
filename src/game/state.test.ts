@@ -1,10 +1,17 @@
-import { gameData, getEntity } from '../data';
+import { packs, type Entity } from '../data';
 import { findSolution } from './engine';
 import { createReducer, initialState, type GameAction, type GameState } from './state';
 
-const puzzle = gameData.puzzles[0];
-const ctx = { puzzle, entities: gameData.entities };
+const pack = packs[0];
+const puzzle = pack.puzzles[0];
+const ctx = { puzzle, entities: pack.entities, categories: pack.categories };
 const reducer = createReducer(ctx);
+
+const getEntity = (id: string): Entity => {
+  const entity = pack.entities.find((e) => e.id === id);
+  if (!entity) throw new Error(`Unknown entity id: ${id}`);
+  return entity;
+};
 
 const play = (actions: GameAction[], from: GameState = initialState(puzzle)): GameState =>
   actions.reduce(reducer, from);
@@ -47,7 +54,7 @@ describe('game reducer', () => {
   });
 
   it('wins when every cell is filled from a real solution', () => {
-    const solution = findSolution(puzzle, gameData.entities);
+    const solution = findSolution(puzzle, pack.entities, pack.categories);
     expect(solution).not.toBeNull();
     const actions: GameAction[] = [...solution!].map(([cellIndex, entityId]) => ({
       type: 'guess',

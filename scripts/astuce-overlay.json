@@ -1,0 +1,7 @@
+{
+  "__doc": "Corrections humaines appliquées par scripts/ingest-astuce.mjs APRÈS la génération, par id d'entité. Champs : exclude (bool), addTags, removeTags, aliases, notoriety, blurb. Ce fichier survit aux ré-ingestions : toute correction manuelle va ici, jamais dans entities.json.",
+  "centre": {
+    "exclude": true,
+    "__pourquoi": "Plusieurs arrêts « Centre » de communes différentes (15 km d'écart) fusionnés à tort par homonymie."
+  }
+}

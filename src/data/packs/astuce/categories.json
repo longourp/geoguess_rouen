@@ -1,0 +1,98 @@
+[
+  {
+    "id": "metro",
+    "label": "Métro",
+    "description": "Arrêt desservi par la ligne de métro (Boulingrin ↔ Technopôle / Georges Braque).",
+    "match": { "anyOf": ["ligne-metro"] }
+  },
+  {
+    "id": "teor",
+    "label": "TEOR",
+    "description": "Arrêt desservi par au moins une ligne TEOR (T1 à T5).",
+    "match": { "anyOf": ["teor"] }
+  },
+  {
+    "id": "fast",
+    "label": "Ligne FAST",
+    "description": "Arrêt desservi par au moins une ligne FAST (F1 à F9).",
+    "match": { "anyOf": ["fast"] }
+  },
+  {
+    "id": "noctambus",
+    "label": "Noctambus",
+    "description": "Arrêt desservi par le service de nuit Noctambus.",
+    "match": { "anyOf": ["ligne-noctambus"] }
+  },
+  {
+    "id": "rive-gauche",
+    "label": "Rive gauche",
+    "description": "Arrêt situé sur la rive gauche de la Seine.",
+    "match": { "anyOf": ["rive-gauche"] }
+  },
+  {
+    "id": "rive-droite",
+    "label": "Rive droite",
+    "description": "Arrêt situé sur la rive droite de la Seine.",
+    "match": { "anyOf": ["rive-droite"] }
+  },
+  {
+    "id": "terminus",
+    "label": "Terminus",
+    "description": "Au moins une ligne du réseau y fait son terminus.",
+    "match": { "anyOf": ["terminus"] }
+  },
+  {
+    "id": "pole-echanges",
+    "label": "Pôle d'échanges",
+    "description": "Arrêt desservi par au moins 3 lignes.",
+    "match": { "anyOf": ["hub-3-lignes"] }
+  },
+  {
+    "id": "grand-pole",
+    "label": "Grand pôle (5 lignes ou +)",
+    "description": "Arrêt desservi par au moins 5 lignes.",
+    "match": { "anyOf": ["hub-5-lignes"] }
+  },
+  {
+    "id": "ligne-t1",
+    "label": "Ligne T1",
+    "description": "Arrêt de la ligne TEOR T1.",
+    "match": { "anyOf": ["ligne-t1"] }
+  },
+  {
+    "id": "ligne-t2",
+    "label": "Ligne T2",
+    "description": "Arrêt de la ligne TEOR T2.",
+    "match": { "anyOf": ["ligne-t2"] }
+  },
+  {
+    "id": "ligne-t3",
+    "label": "Ligne T3",
+    "description": "Arrêt de la ligne TEOR T3.",
+    "match": { "anyOf": ["ligne-t3"] }
+  },
+  {
+    "id": "ligne-t4",
+    "label": "Ligne T4",
+    "description": "Arrêt de la ligne TEOR T4.",
+    "match": { "anyOf": ["ligne-t4"] }
+  },
+  {
+    "id": "ligne-f1",
+    "label": "Ligne F1",
+    "description": "Arrêt de la ligne FAST F1.",
+    "match": { "anyOf": ["ligne-f1"] }
+  },
+  {
+    "id": "ligne-f2",
+    "label": "Ligne F2",
+    "description": "Arrêt de la ligne FAST F2.",
+    "match": { "anyOf": ["ligne-f2"] }
+  },
+  {
+    "id": "sans-metro",
+    "label": "Sans métro",
+    "description": "Arrêt non desservi par le métro.",
+    "match": { "allOf": ["arret"], "noneOf": ["ligne-metro"] }
+  }
+]

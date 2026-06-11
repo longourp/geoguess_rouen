@@ -1,19 +1,27 @@
 import { Fragment } from 'react';
-import { findEntity } from '../data';
-import type { Category } from '../data/schema';
+import type { Category, Entity } from '../data/schema';
 import { GRID_SIZE, type GameState } from '../game';
 import styles from './Grid.module.css';
 
 interface Props {
   rows: Category[];
   cols: Category[];
+  entities: Entity[];
   state: GameState;
   selectedCell: number | null;
   onSelectCell: (cell: number) => void;
   interactive: boolean;
 }
 
-export function Grid({ rows, cols, state, selectedCell, onSelectCell, interactive }: Props) {
+export function Grid({
+  rows,
+  cols,
+  entities,
+  state,
+  selectedCell,
+  onSelectCell,
+  interactive,
+}: Props) {
   return (
     <div
       className={styles.grid}
@@ -35,7 +43,7 @@ export function Grid({ rows, cols, state, selectedCell, onSelectCell, interactiv
             const cell = r * GRID_SIZE + c;
             const placed = state.placed[cell];
             const selected = selectedCell === cell;
-            const entity = placed ? findEntity(placed.entityId) : undefined;
+            const entity = placed ? entities.find((e) => e.id === placed.entityId) : undefined;
             const className = [
               styles.cell,
               placed ? styles.filled : '',

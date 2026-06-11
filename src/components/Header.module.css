@@ -57,6 +57,21 @@
   font-weight: 600;
 }
 
+.nav,
+.navActive {
+  text-decoration: none;
+  color: #e9eef2;
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+.navActive {
+  background: #fff;
+  color: var(--primary);
+  font-weight: 600;
+}
+
 .help {
   width: 2rem;
   height: 2rem;

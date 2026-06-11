@@ -1,33 +1,44 @@
-import { GameDataSchema, type Category, type Entity, type GameData } from './schema';
-import entities from './entities.json';
-import categories from './categories.json';
-import puzzles from './puzzles.json';
+import { GamePackSchema, type GamePack } from './schema';
+import rouenMeta from './packs/rouen/meta.json';
+import rouenEntities from './packs/rouen/entities.json';
+import rouenCategories from './packs/rouen/categories.json';
+import rouenPuzzles from './packs/rouen/puzzles.json';
+import astuceMeta from './packs/astuce/meta.json';
+import astuceEntities from './packs/astuce/entities.json';
+import astuceCategories from './packs/astuce/categories.json';
+import astucePuzzles from './packs/astuce/puzzles.json';
 
 /**
- * Parsed + validated content. Importing this module runs the zod schema once;
- * if any JSON is malformed or references a missing category, it throws here
- * (and `npm run validate:data` turns that into a failing test).
+ * Parsed + validated content, one "pack" per playable game. Importing this
+ * module runs the zod schema once per pack; if any JSON is malformed or
+ * references a missing category, it throws here (and `npm run validate:data`
+ * turns that into a failing test).
  */
-export const gameData: GameData = GameDataSchema.parse({ entities, categories, puzzles });
+export const packs: GamePack[] = [
+  GamePackSchema.parse({
+    meta: rouenMeta,
+    entities: rouenEntities,
+    categories: rouenCategories,
+    puzzles: rouenPuzzles,
+  }),
+  GamePackSchema.parse({
+    meta: astuceMeta,
+    entities: astuceEntities,
+    categories: astuceCategories,
+    puzzles: astucePuzzles,
+  }),
+];
 
-const entitiesById = new Map<string, Entity>(gameData.entities.map((e) => [e.id, e]));
-const categoriesById = new Map<string, Category>(gameData.categories.map((c) => [c.id, c]));
+export const DEFAULT_PACK_ID = packs[0].meta.id;
 
-export function getEntity(id: string): Entity {
-  const entity = entitiesById.get(id);
-  if (!entity) throw new Error(`Unknown entity id: ${id}`);
-  return entity;
+export function getPack(id: string): GamePack {
+  const pack = packs.find((p) => p.meta.id === id);
+  if (!pack) throw new Error(`Unknown pack id: ${id}`);
+  return pack;
 }
 
-/** Like getEntity but returns undefined instead of throwing (e.g. for stale saved progress). */
-export function findEntity(id: string): Entity | undefined {
-  return entitiesById.get(id);
-}
-
-export function getCategory(id: string): Category {
-  const category = categoriesById.get(id);
-  if (!category) throw new Error(`Unknown category id: ${id}`);
-  return category;
+export function findPack(id: string): GamePack | undefined {
+  return packs.find((p) => p.meta.id === id);
 }
 
 export * from './schema';

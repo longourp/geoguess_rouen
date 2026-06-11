@@ -6,6 +6,7 @@ import styles from './EndScreen.module.css';
 
 interface Props {
   state: GameState;
+  packTitle: string;
   puzzle: Puzzle;
   rows: Category[];
   cols: Category[];
@@ -13,12 +14,12 @@ interface Props {
   onReplay: () => void;
 }
 
-export function EndScreen({ state, puzzle, rows, cols, entities, onReplay }: Props) {
+export function EndScreen({ state, packTitle, puzzle, rows, cols, entities, onReplay }: Props) {
   const [copied, setCopied] = useState(false);
   const won = state.status === 'won';
 
   async function share() {
-    setCopied(await copyToClipboard(buildShareText(state, puzzle)));
+    setCopied(await copyToClipboard(buildShareText(state, puzzle, packTitle)));
   }
 
   return (

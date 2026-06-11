@@ -1,0 +1,23 @@
+[
+  {
+    "id": "reseau-2026-06-11",
+    "date": "2026-06-11",
+    "title": "Tour du réseau",
+    "rowCategoryIds": ["metro", "teor", "fast"],
+    "colCategoryIds": ["rive-gauche", "terminus", "pole-echanges"]
+  },
+  {
+    "id": "teor-2026-06-12",
+    "date": "2026-06-12",
+    "title": "Spécial TEOR",
+    "rowCategoryIds": ["ligne-t2", "ligne-t3", "ligne-t4"],
+    "colCategoryIds": ["rive-droite", "pole-echanges", "terminus"]
+  },
+  {
+    "id": "nuit-2026-06-13",
+    "date": "2026-06-13",
+    "title": "Bus de nuit et grands pôles",
+    "rowCategoryIds": ["noctambus", "grand-pole", "sans-metro"],
+    "colCategoryIds": ["fast", "rive-droite", "terminus"]
+  }
+]

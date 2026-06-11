@@ -1,0 +1,231 @@
+.editor {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.header a {
+  color: var(--primary);
+  font-size: 0.9rem;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.meta label,
+.filter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.meta input,
+.meta select,
+.filter input,
+.axis select {
+  font: inherit;
+  font-weight: 400;
+  padding: 0.4rem 0.55rem;
+  border: 1px solid #cdd5dc;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.filter {
+  margin-bottom: 0.75rem;
+  max-width: 320px;
+}
+
+.axes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.axis {
+  flex: 1;
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: 1px solid #e2e7ec;
+  border-radius: var(--radius);
+  padding: 0.75rem;
+}
+
+.axis legend {
+  font-weight: 700;
+  padding: 0 0.3rem;
+}
+
+.editor h2 {
+  font-size: 1.05rem;
+  margin: 0 0 0.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(90px, 1.2fr) repeat(3, minmax(56px, 1fr));
+  gap: 6px;
+  align-items: stretch;
+}
+
+.axisLabel {
+  font-size: 0.75rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.25rem;
+  color: var(--muted);
+}
+
+.cell {
+  border: 0;
+  border-radius: 10px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  padding: 0.85rem 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cellEmpty {
+  background: #e7ebef;
+  color: var(--muted);
+  cursor: default;
+}
+
+.cellBad {
+  background: #d64545;
+}
+
+.cellTight {
+  background: #e8a13c;
+}
+
+.cellOk {
+  background: #3d9a5f;
+}
+
+.cellOpen {
+  outline: 3px solid var(--primary);
+}
+
+.answers {
+  margin-top: 0.75rem;
+  border: 1px solid #e2e7ec;
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  max-height: 16rem;
+  overflow: auto;
+}
+
+.answers h3 {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+}
+
+.answers ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.answers li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.answers li span {
+  color: var(--muted);
+}
+
+.warnings {
+  margin: 0;
+  padding: 0.75rem 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  background: #fdf3e7;
+  border: 1px solid #efd9b8;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+}
+
+.valid {
+  margin: 0;
+  padding: 0.75rem 1rem;
+  background: #e8f6ed;
+  border: 1px solid #bfe3cc;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.export pre {
+  background: #f4f6f8;
+  border: 1px solid #e2e7ec;
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  overflow: auto;
+  font-size: 0.8rem;
+}
+
+.exportActions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.exportActions button {
+  font: inherit;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 999px;
+  background: var(--primary);
+  color: #fff;
+  cursor: pointer;
+}
+
+.exportActions button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.saveMessage {
+  font-size: 0.9rem;
+  margin: 0.5rem 0 0;
+}
+
+.hint {
+  font-size: 0.8rem;
+  color: var(--muted);
+}

@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { findEntity } from '../data';
 import type { Category, Entity, Puzzle } from '../data/schema';
 import { GRID_SIZE, type GameEvent } from '../game';
 import { useGame } from '../hooks/useGame';
@@ -10,14 +9,17 @@ import { EndScreen } from './EndScreen';
 import styles from './GameView.module.css';
 
 interface Props {
+  packId: string;
+  packTitle: string;
   puzzle: Puzzle;
   rows: Category[];
   cols: Category[];
   entities: Entity[];
+  categories: Category[];
 }
 
-export function GameView({ puzzle, rows, cols, entities }: Props) {
-  const { state, dispatch } = useGame(puzzle, entities);
+export function GameView({ packId, packTitle, puzzle, rows, cols, entities, categories }: Props) {
+  const { state, dispatch } = useGame(packId, puzzle, entities, categories);
   const [selectedCell, setSelectedCell] = useState<number | null>(null);
   const playing = state.status === 'playing';
 
@@ -38,10 +40,11 @@ export function GameView({ puzzle, rows, cols, entities }: Props) {
     <section className={styles.game}>
       {puzzle.title && <h2 className={styles.puzzleTitle}>{puzzle.title}</h2>}
       <Scoreboard state={state} />
-      <Feedback event={state.lastEvent} />
+      <Feedback event={state.lastEvent} entities={entities} />
       <Grid
         rows={rows}
         cols={cols}
+        entities={entities}
         state={state}
         selectedCell={selectedCell}
         onSelectCell={select}
@@ -60,6 +63,7 @@ export function GameView({ puzzle, rows, cols, entities }: Props) {
       {!playing && (
         <EndScreen
           state={state}
+          packTitle={packTitle}
           puzzle={puzzle}
           rows={rows}
           cols={cols}
@@ -74,9 +78,9 @@ export function GameView({ puzzle, rows, cols, entities }: Props) {
   );
 }
 
-function Feedback({ event }: { event: GameEvent | null }) {
+function Feedback({ event, entities }: { event: GameEvent | null; entities: Entity[] }) {
   if (!event) return null;
-  const name = findEntity(event.entityId)?.name ?? '';
+  const name = entities.find((e) => e.id === event.entityId)?.name ?? '';
   const message =
     event.kind === 'correct'
       ? `✓ ${name} placé (+${event.points})`

@@ -1,0 +1,2121 @@
+[
+  {
+    "id": "11-novembre",
+    "name": "11-Novembre",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t4", "rive-gauche", "teor"],
+    "notoriety": 77,
+    "blurb": "Arrêt desservi par T4."
+  },
+  {
+    "id": "14-juillet",
+    "name": "14-Juillet",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-metro", "metro", "rive-gauche"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par Métro."
+  },
+  {
+    "id": "amiral-cecille",
+    "name": "Amiral Cécille",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t5", "rive-gauche", "teor"],
+    "notoriety": 75,
+    "blurb": "Arrêt desservi par T5."
+  },
+  {
+    "id": "auberge-de-jeunesse",
+    "name": "Auberge de Jeunesse",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t2", "ligne-t3", "rive-droite", "teor"],
+    "notoriety": 85,
+    "blurb": "Arrêt desservi par T2, T3."
+  },
+  {
+    "id": "avenue-de-caen",
+    "name": "Avenue de Caen",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-metro", "metro", "rive-gauche"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par Métro."
+  },
+  {
+    "id": "bapeaume",
+    "name": "Bapeaume",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t2", "rive-droite", "teor"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par T2."
+  },
+  {
+    "id": "beauvoisine",
+    "name": "Beauvoisine",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-20",
+      "ligne-f1",
+      "ligne-metro",
+      "ligne-t4",
+      "metro",
+      "rive-droite",
+      "teor"
+    ],
+    "notoriety": 94,
+    "blurb": "Arrêt desservi par 20, F1, Métro, T4."
+  },
+  {
+    "id": "beaux-arts",
+    "name": "Beaux Arts",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-11",
+      "ligne-15",
+      "ligne-22",
+      "ligne-f2",
+      "ligne-f7",
+      "ligne-noctambus",
+      "rive-droite"
+    ],
+    "notoriety": 87,
+    "blurb": "Arrêt desservi par 11, 15, 22, F2, F7, Noctambus."
+  },
+  {
+    "id": "belges",
+    "name": "Belges",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "hub-3-lignes",
+      "ligne-t1",
+      "ligne-t2",
+      "ligne-t3",
+      "ligne-t4",
+      "rive-droite",
+      "teor"
+    ],
+    "notoriety": 93,
+    "blurb": "Arrêt desservi par T1, T2, T3, T4."
+  },
+  {
+    "id": "bernard-palissy",
+    "name": "Bernard Palissy",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-529",
+      "ligne-f8",
+      "ligne-t2",
+      "rive-droite",
+      "teor"
+    ],
+    "notoriety": 83,
+    "blurb": "Arrêt desservi par 529, F8, T2."
+  },
+  {
+    "id": "bibliotheque-galilee",
+    "name": "Bibliotheque Galilée",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "fast", "hub-3-lignes", "ligne-101", "ligne-f3", "ligne-i", "rive-gauche"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par 101, F3, I."
+  },
+  {
+    "id": "bizet",
+    "name": "Bizet",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t3", "rive-droite", "teor"],
+    "notoriety": 70,
+    "blurb": "Arrêt desservi par T3."
+  },
+  {
+    "id": "blaise-pascal",
+    "name": "Blaise Pascal",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-27",
+      "ligne-f1",
+      "ligne-noctambus",
+      "rive-gauche"
+    ],
+    "notoriety": 79,
+    "blurb": "Arrêt desservi par 27, F1, Noctambus."
+  },
+  {
+    "id": "boulingrin",
+    "name": "Boulingrin",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-20",
+      "ligne-22",
+      "ligne-36",
+      "ligne-f2",
+      "ligne-metro",
+      "ligne-t4",
+      "metro",
+      "rive-droite",
+      "teor",
+      "terminus"
+    ],
+    "notoriety": 94,
+    "blurb": "Arrêt desservi par 20, 22, 36, F2, Métro, T4."
+  },
+  {
+    "id": "brossolette",
+    "name": "Brossolette",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "hub-3-lignes", "ligne-27", "ligne-41", "ligne-42", "rive-gauche"],
+    "notoriety": 77,
+    "blurb": "Arrêt desservi par 27, 41, 42."
+  },
+  {
+    "id": "caf",
+    "name": "CAF",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t4", "rive-gauche", "teor"],
+    "notoriety": 77,
+    "blurb": "Arrêt desservi par T4."
+  },
+  {
+    "id": "camille-claudel",
+    "name": "Camille Claudel",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t5", "rive-gauche", "teor"],
+    "notoriety": 75,
+    "blurb": "Arrêt desservi par T5."
+  },
+  {
+    "id": "campulley",
+    "name": "Campulley",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-f2",
+      "ligne-f7",
+      "ligne-noctambus",
+      "rive-droite"
+    ],
+    "notoriety": 81,
+    "blurb": "Arrêt desservi par F2, F7, Noctambus."
+  },
+  {
+    "id": "campus",
+    "name": "Campus",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t1", "ligne-t5", "rive-droite", "teor"],
+    "notoriety": 85,
+    "blurb": "Arrêt desservi par T1, T5."
+  },
+  {
+    "id": "campus-sante",
+    "name": "Campus Santé",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t4", "rive-droite", "teor"],
+    "notoriety": 77,
+    "blurb": "Arrêt desservi par T4."
+  },
+  {
+    "id": "cathedrale",
+    "name": "Cathédrale",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "hub-3-lignes", "ligne-t1", "ligne-t2", "ligne-t3", "rive-droite", "teor"],
+    "notoriety": 90,
+    "blurb": "Arrêt desservi par T1, T2, T3."
+  },
+  {
+    "id": "cauchoise",
+    "name": "Cauchoise",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-15", "ligne-t4", "rive-droite", "teor"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par 15, T4."
+  },
+  {
+    "id": "champ-de-courses",
+    "name": "Champ de Courses",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-metro", "metro", "rive-gauche"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par Métro."
+  },
+  {
+    "id": "champ-de-foire",
+    "name": "Champ de Foire",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-100",
+      "ligne-101",
+      "ligne-102",
+      "ligne-103",
+      "ligne-b",
+      "ligne-c",
+      "ligne-f9",
+      "ligne-g",
+      "terminus"
+    ],
+    "notoriety": 84,
+    "blurb": "Arrêt desservi par 100, 101, 102, 103, B, C…."
+  },
+  {
+    "id": "champ-des-bruyeres",
+    "name": "Champ des Bruyères",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-noctambus", "ligne-t4", "rive-gauche", "teor"],
+    "notoriety": 77,
+    "blurb": "Arrêt desservi par Noctambus, T4."
+  },
+  {
+    "id": "champlain",
+    "name": "Champlain",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-27",
+      "ligne-f1",
+      "ligne-f7",
+      "ligne-f9",
+      "ligne-noctambus",
+      "ligne-t5",
+      "rive-gauche",
+      "teor",
+      "terminus"
+    ],
+    "notoriety": 91,
+    "blurb": "Arrêt desservi par 27, F1, F7, F9, Noctambus, T5."
+  },
+  {
+    "id": "charles-de-gaulle",
+    "name": "Charles de Gaulle",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "hub-3-lignes",
+      "ligne-27",
+      "ligne-41",
+      "ligne-metro",
+      "metro",
+      "rive-gauche"
+    ],
+    "notoriety": 85,
+    "blurb": "Arrêt desservi par 27, 41, Métro."
+  },
+  {
+    "id": "charles-mouchel",
+    "name": "Charles Mouchel",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-100",
+      "ligne-101",
+      "ligne-102",
+      "ligne-a",
+      "ligne-b",
+      "ligne-d1",
+      "ligne-d2",
+      "ligne-f",
+      "ligne-g"
+    ],
+    "notoriety": 85,
+    "blurb": "Arrêt desservi par 100, 101, 102, A, B, D1…."
+  },
+  {
+    "id": "chartreux",
+    "name": "Chartreux",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-27", "ligne-t4", "rive-gauche", "teor"],
+    "notoriety": 81,
+    "blurb": "Arrêt desservi par 27, T4."
+  },
+  {
+    "id": "chatelet",
+    "name": "Châtelet",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t2", "rive-droite", "teor"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par T2."
+  },
+  {
+    "id": "chemin-de-la-corniche",
+    "name": "Chemin de la Corniche",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-530", "ligne-t3", "rive-droite", "teor"],
+    "notoriety": 81,
+    "blurb": "Arrêt desservi par 530, T3."
+  },
+  {
+    "id": "chu-charles-nicolle",
+    "name": "CHU Charles Nicolle",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "hub-3-lignes",
+      "ligne-t1",
+      "ligne-t2",
+      "ligne-t3",
+      "ligne-t4",
+      "rive-droite",
+      "teor",
+      "terminus"
+    ],
+    "notoriety": 93,
+    "blurb": "Arrêt desservi par T1, T2, T3, T4."
+  },
+  {
+    "id": "cimetiere-de-bihorel",
+    "name": "Cimetière de Bihorel",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "fast", "hub-3-lignes", "ligne-10", "ligne-20", "ligne-f8", "rive-droite"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par 10, 20, F8."
+  },
+  {
+    "id": "clos-d-argent",
+    "name": "Clos d'Argent",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t2", "rive-droite", "teor"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par T2."
+  },
+  {
+    "id": "college-malot",
+    "name": "Collège Malot",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "fast", "hub-3-lignes", "ligne-13", "ligne-14", "ligne-f5", "rive-droite"],
+    "notoriety": 79,
+    "blurb": "Arrêt desservi par 13, 14, F5."
+  },
+  {
+    "id": "conservatoire",
+    "name": "Conservatoire",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "fast", "hub-3-lignes", "ligne-20", "ligne-22", "ligne-f2", "rive-droite"],
+    "notoriety": 77,
+    "blurb": "Arrêt desservi par 20, 22, F2."
+  },
+  {
+    "id": "couperin",
+    "name": "Couperin",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t2", "rive-droite", "teor"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par T2."
+  },
+  {
+    "id": "crevier",
+    "name": "Crevier",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-f2",
+      "ligne-f7",
+      "ligne-noctambus",
+      "rive-droite"
+    ],
+    "notoriety": 81,
+    "blurb": "Arrêt desservi par F2, F7, Noctambus."
+  },
+  {
+    "id": "demi-lune",
+    "name": "Demi-Lune",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "hub-3-lignes", "ligne-10", "ligne-43", "ligne-529", "ligne-t2", "teor"],
+    "notoriety": 82,
+    "blurb": "Arrêt desservi par 10, 43, 529, T2."
+  },
+  {
+    "id": "denfert-rochereau",
+    "name": "Denfert Rochereau",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-100",
+      "ligne-104",
+      "ligne-a",
+      "ligne-c",
+      "ligne-d1"
+    ],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par 100, 104, A, C, D1."
+  },
+  {
+    "id": "deux-rivieres",
+    "name": "Deux Rivières",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "hub-3-lignes", "ligne-22", "ligne-t2", "ligne-t3", "rive-droite", "teor"],
+    "notoriety": 86,
+    "blurb": "Arrêt desservi par 22, T2, T3."
+  },
+  {
+    "id": "docteur-pain",
+    "name": "Docteur Pain",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-100",
+      "ligne-102",
+      "ligne-a",
+      "ligne-d1",
+      "ligne-d2",
+      "ligne-f"
+    ],
+    "notoriety": 81,
+    "blurb": "Arrêt desservi par 100, 102, A, D1, D2, F."
+  },
+  {
+    "id": "dumas",
+    "name": "Dumas",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t3", "rive-droite", "teor"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par T3."
+  },
+  {
+    "id": "durecu-lavoisier",
+    "name": "Durécu-Lavoisier",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t3", "rive-droite", "teor", "terminus"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par T3."
+  },
+  {
+    "id": "ecole-d-architecture",
+    "name": "École d'Architecture",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t3", "rive-droite", "teor"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par T3."
+  },
+  {
+    "id": "eglise-d-orival",
+    "name": "Église d'Orival",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "fast", "hub-3-lignes", "ligne-101", "ligne-f9", "ligne-g"],
+    "notoriety": 79,
+    "blurb": "Arrêt desservi par 101, F9, G."
+  },
+  {
+    "id": "eglise-saint-jean",
+    "name": "Église Saint-Jean",
+    "aliases": ["Église St Jean"],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-100",
+      "ligne-102",
+      "ligne-103",
+      "ligne-a",
+      "ligne-c",
+      "ligne-d1",
+      "ligne-d2",
+      "ligne-f",
+      "ligne-f9"
+    ],
+    "notoriety": 88,
+    "blurb": "Arrêt desservi par 100, 102, 103, A, C, D1…."
+  },
+  {
+    "id": "ernest-renan",
+    "name": "Ernest Renan",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-42", "ligne-metro", "metro", "rive-gauche"],
+    "notoriety": 82,
+    "blurb": "Arrêt desservi par 42, Métro."
+  },
+  {
+    "id": "europe",
+    "name": "Europe",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-27", "ligne-metro", "metro", "rive-gauche", "terminus"],
+    "notoriety": 83,
+    "blurb": "Arrêt desservi par 27, Métro."
+  },
+  {
+    "id": "flavigny",
+    "name": "Flavigny",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "hub-3-lignes", "ligne-b", "ligne-d2", "ligne-f", "terminus"],
+    "notoriety": 77,
+    "blurb": "Arrêt desservi par B, D2, F."
+  },
+  {
+    "id": "fond-du-val",
+    "name": "Fond du Val",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t1", "ligne-t5", "rive-droite", "teor"],
+    "notoriety": 85,
+    "blurb": "Arrêt desservi par T1, T5."
+  },
+  {
+    "id": "foubert",
+    "name": "Foubert",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-f2",
+      "ligne-f7",
+      "ligne-noctambus",
+      "rive-droite"
+    ],
+    "notoriety": 81,
+    "blurb": "Arrêt desservi par F2, F7, Noctambus."
+  },
+  {
+    "id": "fraenckel",
+    "name": "Fraenckel",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-100",
+      "ligne-101",
+      "ligne-102",
+      "ligne-b",
+      "ligne-g"
+    ],
+    "notoriety": 72,
+    "blurb": "Arrêt desservi par 100, 101, 102, B, G."
+  },
+  {
+    "id": "francois-truffaut",
+    "name": "François Truffaut",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "hub-3-lignes",
+      "ligne-33",
+      "ligne-41",
+      "ligne-metro",
+      "metro",
+      "rive-gauche",
+      "terminus"
+    ],
+    "notoriety": 85,
+    "blurb": "Arrêt desservi par 33, 41, Métro."
+  },
+  {
+    "id": "frechon",
+    "name": "Fréchon",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-10",
+      "ligne-43",
+      "ligne-f2",
+      "ligne-f8",
+      "rive-droite"
+    ],
+    "notoriety": 82,
+    "blurb": "Arrêt desservi par 10, 43, F2, F8."
+  },
+  {
+    "id": "galilee",
+    "name": "Galilée",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t2", "rive-droite", "teor"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par T2."
+  },
+  {
+    "id": "gare-de-saint-etienne",
+    "name": "Gare de Saint-Etienne",
+    "aliases": ["Gare de St Etienne"],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-42",
+      "ligne-astuce-pro",
+      "ligne-f6",
+      "rive-gauche",
+      "terminus"
+    ],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par 42, Astuce Pro, F6."
+  },
+  {
+    "id": "gare-de-st-aubin",
+    "name": "Gare de St-Aubin",
+    "aliases": ["Gare de Saint-Aubin"],
+    "type": "station",
+    "tags": [
+      "arret",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-100",
+      "ligne-102",
+      "ligne-a",
+      "ligne-c",
+      "ligne-d1",
+      "ligne-d2",
+      "ligne-f"
+    ],
+    "notoriety": 83,
+    "blurb": "Arrêt desservi par 100, 102, A, C, D1, D2…."
+  },
+  {
+    "id": "gare-rue-verte",
+    "name": "Gare-Rue Verte",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-11",
+      "ligne-22",
+      "ligne-f2",
+      "ligne-f7",
+      "ligne-metro",
+      "ligne-noctambus",
+      "ligne-t4",
+      "metro",
+      "rive-droite",
+      "teor",
+      "terminus"
+    ],
+    "notoriety": 96,
+    "blurb": "Arrêt desservi par 11, 22, F2, F7, Métro, Noctambus…."
+  },
+  {
+    "id": "garibaldi",
+    "name": "Garibaldi",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-metro", "metro", "rive-gauche"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par Métro."
+  },
+  {
+    "id": "gay-lussac",
+    "name": "Gay-Lussac",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "hub-3-lignes", "ligne-27", "ligne-41", "ligne-42", "rive-gauche"],
+    "notoriety": 77,
+    "blurb": "Arrêt desservi par 27, 41, 42."
+  },
+  {
+    "id": "george-sand",
+    "name": "George Sand",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "hub-3-lignes",
+      "ligne-42",
+      "ligne-noctambus",
+      "ligne-t4",
+      "rive-gauche",
+      "teor"
+    ],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par 42, Noctambus, T4."
+  },
+  {
+    "id": "georges-braque",
+    "name": "Georges Braque",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-27",
+      "ligne-f6",
+      "ligne-metro",
+      "metro",
+      "rive-gauche",
+      "terminus"
+    ],
+    "notoriety": 87,
+    "blurb": "Arrêt desservi par 27, F6, Métro."
+  },
+  {
+    "id": "haut-hubert",
+    "name": "Haut Hubert",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "fast", "hub-3-lignes", "ligne-13", "ligne-14", "ligne-f5", "rive-droite"],
+    "notoriety": 79,
+    "blurb": "Arrêt desservi par 13, 14, F5."
+  },
+  {
+    "id": "honore-de-balzac",
+    "name": "Honoré de Balzac",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-metro", "metro", "rive-gauche"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par Métro."
+  },
+  {
+    "id": "hotel-de-ville",
+    "name": "Hôtel de Ville",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-11",
+      "ligne-15",
+      "ligne-20",
+      "ligne-22",
+      "ligne-f1",
+      "ligne-f2",
+      "ligne-f7",
+      "ligne-noctambus",
+      "rive-droite",
+      "terminus"
+    ],
+    "notoriety": 91,
+    "blurb": "Arrêt desservi par 11, 15, 20, 22, F1, F2…."
+  },
+  {
+    "id": "hotel-de-ville-belvedere",
+    "name": "Hôtel de Ville - Belvédère",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-10",
+      "ligne-43",
+      "ligne-f2",
+      "ligne-f7",
+      "ligne-f8",
+      "ligne-noctambus",
+      "rive-droite"
+    ],
+    "notoriety": 86,
+    "blurb": "Arrêt desservi par 10, 43, F2, F7, F8, Noctambus."
+  },
+  {
+    "id": "hotel-de-ville-de-sotteville",
+    "name": "Hôtel de Ville de Sotteville",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-33",
+      "ligne-41",
+      "ligne-astuce-pro",
+      "ligne-f3",
+      "ligne-f7",
+      "ligne-metro",
+      "metro",
+      "rive-gauche",
+      "terminus"
+    ],
+    "notoriety": 93,
+    "blurb": "Arrêt desservi par 33, 41, Astuce Pro, F3, F7, Métro."
+  },
+  {
+    "id": "hotel-de-ville-jaures",
+    "name": "Hôtel de Ville - Jaurès",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-35", "ligne-t3", "rive-droite", "teor"],
+    "notoriety": 79,
+    "blurb": "Arrêt desservi par 35, T3."
+  },
+  {
+    "id": "jean-jaures",
+    "name": "Jean Jaurès",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-metro", "metro", "rive-gauche"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par Métro."
+  },
+  {
+    "id": "jean-zay",
+    "name": "Jean Zay",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-metro", "metro", "rive-gauche"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par Métro."
+  },
+  {
+    "id": "jf-kennedy",
+    "name": "JF Kennedy",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-42", "ligne-metro", "metro", "rive-gauche"],
+    "notoriety": 82,
+    "blurb": "Arrêt desservi par 42, Métro."
+  },
+  {
+    "id": "joffre-mutualite",
+    "name": "Joffre-Mutualité",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "hub-3-lignes",
+      "ligne-33",
+      "ligne-metro",
+      "ligne-t5",
+      "metro",
+      "rive-gauche",
+      "teor"
+    ],
+    "notoriety": 92,
+    "blurb": "Arrêt desservi par 33, Métro, T5."
+  },
+  {
+    "id": "jules-ferry",
+    "name": "Jules Ferry",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-35",
+      "ligne-529",
+      "ligne-f4",
+      "ligne-f8",
+      "rive-droite"
+    ],
+    "notoriety": 81,
+    "blurb": "Arrêt desservi par 35, 529, F4, F8."
+  },
+  {
+    "id": "la-poste",
+    "name": "La Poste",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-100",
+      "ligne-101",
+      "ligne-102",
+      "ligne-a",
+      "ligne-b",
+      "ligne-d1",
+      "ligne-d2",
+      "ligne-f",
+      "ligne-g"
+    ],
+    "notoriety": 85,
+    "blurb": "Arrêt desservi par 100, 101, 102, A, B, D1…."
+  },
+  {
+    "id": "la-ruche",
+    "name": "La Ruche",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-103",
+      "ligne-a",
+      "ligne-b",
+      "ligne-c",
+      "ligne-d2",
+      "ligne-f"
+    ],
+    "notoriety": 85,
+    "blurb": "Arrêt desservi par 103, A, B, C, D2, F."
+  },
+  {
+    "id": "la-varenne",
+    "name": "La Varenne",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-10",
+      "ligne-43",
+      "ligne-f2",
+      "ligne-f7",
+      "ligne-f8",
+      "ligne-noctambus",
+      "rive-droite",
+      "terminus"
+    ],
+    "notoriety": 86,
+    "blurb": "Arrêt desservi par 10, 43, F2, F7, F8, Noctambus."
+  },
+  {
+    "id": "la-vatine-centre-commercial",
+    "name": "La Vatine - Centre Commercial",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-22",
+      "ligne-43",
+      "ligne-f2",
+      "ligne-f8",
+      "rive-droite",
+      "terminus"
+    ],
+    "notoriety": 82,
+    "blurb": "Arrêt desservi par 22, 43, F2, F8."
+  },
+  {
+    "id": "la-vielle",
+    "name": "La Vielle",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "fast", "hub-3-lignes", "ligne-10", "ligne-11", "ligne-f8"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par 10, 11, F8."
+  },
+  {
+    "id": "lafayette",
+    "name": "Lafayette",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-27",
+      "ligne-f1",
+      "ligne-f7",
+      "ligne-noctambus",
+      "rive-gauche"
+    ],
+    "notoriety": 84,
+    "blurb": "Arrêt desservi par 27, F1, F7, Noctambus."
+  },
+  {
+    "id": "le-parc",
+    "name": "Le Parc",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-metro", "metro", "rive-gauche"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par Métro."
+  },
+  {
+    "id": "leon-blum",
+    "name": "Léon Blum",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-metro", "metro", "rive-gauche"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par Métro."
+  },
+  {
+    "id": "les-canadiens",
+    "name": "Les Canadiens",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-28", "ligne-t3", "rive-droite", "teor"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par 28, T3."
+  },
+  {
+    "id": "les-coquets",
+    "name": "Les Coquets",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-10",
+      "ligne-43",
+      "ligne-f2",
+      "ligne-f7",
+      "ligne-f8",
+      "ligne-noctambus",
+      "ligne-t1",
+      "ligne-t5",
+      "rive-droite",
+      "teor"
+    ],
+    "notoriety": 93,
+    "blurb": "Arrêt desservi par 10, 43, F2, F7, F8, Noctambus…."
+  },
+  {
+    "id": "louis-poterat",
+    "name": "Louis Poterat",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t4", "rive-gauche", "teor"],
+    "notoriety": 77,
+    "blurb": "Arrêt desservi par T4."
+  },
+  {
+    "id": "luciline",
+    "name": "Luciline",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "hub-3-lignes", "ligne-t1", "ligne-t2", "ligne-t3", "rive-droite", "teor"],
+    "notoriety": 90,
+    "blurb": "Arrêt desservi par T1, T2, T3."
+  },
+  {
+    "id": "lycee-des-bruyeres",
+    "name": "Lycée des Bruyeres",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-41",
+      "ligne-f1",
+      "ligne-f9",
+      "ligne-noctambus",
+      "rive-gauche"
+    ],
+    "notoriety": 85,
+    "blurb": "Arrêt desservi par 41, F1, F9, Noctambus."
+  },
+  {
+    "id": "lycee-du-cailly",
+    "name": "Lycée du Cailly",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-44",
+      "ligne-f4",
+      "ligne-f8",
+      "rive-droite",
+      "terminus"
+    ],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par 44, F4, F8."
+  },
+  {
+    "id": "lycee-flaubert",
+    "name": "Lycée Flaubert",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-10",
+      "ligne-22",
+      "ligne-f2",
+      "rive-droite",
+      "terminus"
+    ],
+    "notoriety": 79,
+    "blurb": "Arrêt desservi par 10, 22, F2."
+  },
+  {
+    "id": "lycee-le-corbusier",
+    "name": "Lycée Le Corbusier",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "fast", "hub-3-lignes", "ligne-f6", "ligne-noctambus", "ligne-t4", "teor"],
+    "notoriety": 84,
+    "blurb": "Arrêt desservi par F6, Noctambus, T4."
+  },
+  {
+    "id": "mairie-d-elbeuf",
+    "name": "Mairie d'Elbeuf",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "fast", "hub-3-lignes", "ligne-103", "ligne-c", "ligne-f9"],
+    "notoriety": 79,
+    "blurb": "Arrêt desservi par 103, C, F9."
+  },
+  {
+    "id": "mairie-de-bois-guillaume",
+    "name": "Mairie de Bois-Guillaume",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "fast", "hub-3-lignes", "ligne-10", "ligne-f1", "ligne-f8"],
+    "notoriety": 81,
+    "blurb": "Arrêt desservi par 10, F1, F8."
+  },
+  {
+    "id": "mairie-de-cleon",
+    "name": "Mairie de Cléon",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "hub-3-lignes", "ligne-106", "ligne-a", "ligne-c", "ligne-d1", "terminus"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par 106, A, C, D1."
+  },
+  {
+    "id": "mairie-de-darnetal",
+    "name": "Mairie de Darnétal",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-14",
+      "ligne-28",
+      "ligne-38",
+      "ligne-filo-r-z2",
+      "ligne-t3",
+      "rive-droite",
+      "teor",
+      "terminus"
+    ],
+    "notoriety": 82,
+    "blurb": "Arrêt desservi par 14, 28, 38, Filo'r Z2, T3."
+  },
+  {
+    "id": "mairie-de-deville",
+    "name": "Mairie de Déville",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-529",
+      "ligne-f8",
+      "ligne-t2",
+      "rive-droite",
+      "teor"
+    ],
+    "notoriety": 83,
+    "blurb": "Arrêt desservi par 529, F8, T2."
+  },
+  {
+    "id": "mairie-de-st-pierre",
+    "name": "Mairie de St-Pierre",
+    "aliases": ["Mairie de Saint-Pierre"],
+    "type": "station",
+    "tags": ["arret", "hub-3-lignes", "ligne-a", "ligne-c", "ligne-d2", "terminus"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par A, C, D2."
+  },
+  {
+    "id": "mairie-v-schoelcher",
+    "name": "Mairie - V. Schoelcher",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-529",
+      "ligne-f4",
+      "ligne-t2",
+      "teor",
+      "terminus"
+    ],
+    "notoriety": 83,
+    "blurb": "Arrêt desservi par 529, F4, T2."
+  },
+  {
+    "id": "maison-de-l-emploi",
+    "name": "Maison de l'Emploi",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t2", "teor"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par T2."
+  },
+  {
+    "id": "maison-normande",
+    "name": "Maison Normande",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t2", "rive-droite", "teor"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par T2."
+  },
+  {
+    "id": "malraux",
+    "name": "Malraux",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t2", "rive-droite", "teor"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par T2."
+  },
+  {
+    "id": "mare-aux-sangsues",
+    "name": "Mare aux Sangsues",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "fast", "hub-3-lignes", "ligne-f6", "ligne-noctambus", "ligne-t4", "teor"],
+    "notoriety": 84,
+    "blurb": "Arrêt desservi par F6, Noctambus, T4."
+  },
+  {
+    "id": "marechal-leclerc",
+    "name": "Maréchal Leclerc",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "fast", "hub-3-lignes", "ligne-13", "ligne-14", "ligne-f5", "rive-droite"],
+    "notoriety": 79,
+    "blurb": "Arrêt desservi par 13, 14, F5."
+  },
+  {
+    "id": "marie-curie-mtc",
+    "name": "Marie Curie - MTC",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t4", "rive-droite", "teor", "terminus"],
+    "notoriety": 77,
+    "blurb": "Arrêt desservi par T4."
+  },
+  {
+    "id": "marie-marvingt",
+    "name": "Marie Marvingt",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t4", "rive-droite", "teor"],
+    "notoriety": 77,
+    "blurb": "Arrêt desservi par T4."
+  },
+  {
+    "id": "martainville",
+    "name": "Martainville",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-13",
+      "ligne-15",
+      "ligne-20",
+      "ligne-t1",
+      "ligne-t2",
+      "ligne-t3",
+      "rive-droite",
+      "teor",
+      "terminus"
+    ],
+    "notoriety": 93,
+    "blurb": "Arrêt desservi par 13, 15, 20, T1, T2, T3."
+  },
+  {
+    "id": "maryse-bastie",
+    "name": "Maryse Bastié",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-metro", "metro", "rive-gauche"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par Métro."
+  },
+  {
+    "id": "min",
+    "name": "MIN",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-35",
+      "ligne-44",
+      "ligne-f4",
+      "ligne-t3",
+      "rive-droite",
+      "teor",
+      "terminus"
+    ],
+    "notoriety": 84,
+    "blurb": "Arrêt desservi par 35, 44, F4, T3."
+  },
+  {
+    "id": "mitterrand",
+    "name": "Mitterrand",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "hub-3-lignes", "ligne-a", "ligne-d1", "ligne-d2", "ligne-f"],
+    "notoriety": 81,
+    "blurb": "Arrêt desservi par A, D1, D2, F."
+  },
+  {
+    "id": "monet",
+    "name": "Monet",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t3", "rive-droite", "teor", "terminus"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par T3."
+  },
+  {
+    "id": "mont-aux-malades",
+    "name": "Mont aux Malades",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-10",
+      "ligne-43",
+      "ligne-f2",
+      "ligne-f8",
+      "ligne-t1",
+      "ligne-t5",
+      "rive-droite",
+      "teor",
+      "terminus"
+    ],
+    "notoriety": 91,
+    "blurb": "Arrêt desservi par 10, 43, F2, F8, T1, T5."
+  },
+  {
+    "id": "mont-riboudet",
+    "name": "Mont-Riboudet",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-26",
+      "ligne-35",
+      "ligne-529",
+      "ligne-530",
+      "ligne-f4",
+      "ligne-t1",
+      "ligne-t2",
+      "ligne-t3",
+      "ligne-t5",
+      "rive-droite",
+      "teor",
+      "terminus"
+    ],
+    "notoriety": 96,
+    "blurb": "Arrêt desservi par 26, 35, 529, 530, F4, T1…."
+  },
+  {
+    "id": "moulin-a-poudre",
+    "name": "Moulin à Poudre",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "hub-3-lignes", "ligne-35", "ligne-529", "ligne-t2", "teor"],
+    "notoriety": 81,
+    "blurb": "Arrêt desservi par 35, 529, T2."
+  },
+  {
+    "id": "orleans",
+    "name": "Orléans",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t4", "ligne-t5", "rive-gauche", "teor"],
+    "notoriety": 84,
+    "blurb": "Arrêt desservi par T4, T5."
+  },
+  {
+    "id": "palais-de-justice-gisele-halimi",
+    "name": "Palais de Justice - Gisèle Halimi",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-metro", "metro", "rive-droite"],
+    "notoriety": 88,
+    "blurb": "Arrêt desservi par Métro."
+  },
+  {
+    "id": "parc-de-loisirs",
+    "name": "Parc de Loisirs",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "fast", "hub-3-lignes", "ligne-13", "ligne-14", "ligne-f5", "rive-droite"],
+    "notoriety": 79,
+    "blurb": "Arrêt desservi par 13, 14, F5."
+  },
+  {
+    "id": "pasteur",
+    "name": "Pasteur",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "hub-3-lignes", "ligne-t1", "ligne-t2", "ligne-t3", "rive-droite", "teor"],
+    "notoriety": 90,
+    "blurb": "Arrêt desservi par T1, T2, T3."
+  },
+  {
+    "id": "paul-cezanne",
+    "name": "Paul Cézanne",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-metro", "metro", "rive-gauche"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par Métro."
+  },
+  {
+    "id": "petit-saint-pierre",
+    "name": "Petit Saint-Pierre",
+    "aliases": ["Petit St Pierre"],
+    "type": "station",
+    "tags": ["arret", "ligne-t2", "rive-droite", "teor"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par T2."
+  },
+  {
+    "id": "piscine-salomon",
+    "name": "Piscine Salomon",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t2", "rive-droite", "teor"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par T2."
+  },
+  {
+    "id": "pissarro",
+    "name": "Pissarro",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t3", "rive-droite", "teor"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par T3."
+  },
+  {
+    "id": "place-colbert",
+    "name": "Place Colbert",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-10",
+      "ligne-43",
+      "ligne-f2",
+      "ligne-f7",
+      "ligne-f8",
+      "ligne-noctambus",
+      "ligne-t1",
+      "ligne-t5",
+      "rive-droite",
+      "teor"
+    ],
+    "notoriety": 93,
+    "blurb": "Arrêt desservi par 10, 43, F2, F7, F8, Noctambus…."
+  },
+  {
+    "id": "place-du-8-mai",
+    "name": "Place du 8-Mai",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-metro", "metro", "rive-gauche", "terminus"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par Métro."
+  },
+  {
+    "id": "place-du-mans",
+    "name": "Place Du Mans",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "fast", "hub-3-lignes", "ligne-101", "ligne-f9", "ligne-g"],
+    "notoriety": 79,
+    "blurb": "Arrêt desservi par 101, F9, G."
+  },
+  {
+    "id": "place-fresnel",
+    "name": "Place Fresnel",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-35",
+      "ligne-529",
+      "ligne-f4",
+      "ligne-f8",
+      "rive-droite"
+    ],
+    "notoriety": 81,
+    "blurb": "Arrêt desservi par 35, 529, F4, F8."
+  },
+  {
+    "id": "place-saint-paul",
+    "name": "Place Saint-Paul",
+    "aliases": ["Place St Paul"],
+    "type": "station",
+    "tags": ["arret", "fast", "hub-3-lignes", "ligne-13", "ligne-15", "ligne-f5", "rive-droite"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par 13, 15, F5."
+  },
+  {
+    "id": "place-saint-sever",
+    "name": "Place Saint-Sever",
+    "aliases": ["Place St Sever"],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-27",
+      "ligne-f1",
+      "ligne-f9",
+      "ligne-noctambus",
+      "rive-gauche"
+    ],
+    "notoriety": 85,
+    "blurb": "Arrêt desservi par 27, F1, F9, Noctambus."
+  },
+  {
+    "id": "place-saint-vivien",
+    "name": "Place Saint-Vivien",
+    "aliases": ["Place St Vivien"],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-15",
+      "ligne-20",
+      "ligne-22",
+      "ligne-f2",
+      "rive-droite"
+    ],
+    "notoriety": 83,
+    "blurb": "Arrêt desservi par 15, 20, 22, F2."
+  },
+  {
+    "id": "pointe-a-jojo",
+    "name": "Pointe a Jojo",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-100",
+      "ligne-102",
+      "ligne-a",
+      "ligne-d1",
+      "ligne-d2",
+      "ligne-f"
+    ],
+    "notoriety": 81,
+    "blurb": "Arrêt desservi par 100, 102, A, D1, D2, F."
+  },
+  {
+    "id": "pole-multi-de-oissel",
+    "name": "Pôle Multi de Oissel",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "hub-3-lignes", "ligne-d2", "ligne-f", "ligne-i", "rive-gauche", "terminus"],
+    "notoriety": 79,
+    "blurb": "Arrêt desservi par D2, F, I."
+  },
+  {
+    "id": "pont-corneille",
+    "name": "Pont Corneille",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-11",
+      "ligne-27",
+      "ligne-f1",
+      "ligne-f7",
+      "ligne-noctambus",
+      "rive-droite"
+    ],
+    "notoriety": 86,
+    "blurb": "Arrêt desservi par 11, 27, F1, F7, Noctambus."
+  },
+  {
+    "id": "ponton-107-rg",
+    "name": "Ponton 107 RG",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ferry", "ligne-calypso", "rive-gauche", "terminus"],
+    "notoriety": 50,
+    "blurb": "Arrêt desservi par Calypso."
+  },
+  {
+    "id": "ponton-pasteur-rd",
+    "name": "Ponton Pasteur RD",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ferry", "ligne-calypso", "rive-gauche", "terminus"],
+    "notoriety": 50,
+    "blurb": "Arrêt desservi par Calypso."
+  },
+  {
+    "id": "prat",
+    "name": "Prat",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t3", "rive-droite", "teor"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par T3."
+  },
+  {
+    "id": "provence",
+    "name": "Provence",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t3", "rive-droite", "teor"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par T3."
+  },
+  {
+    "id": "provinces",
+    "name": "Provinces",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-metro", "metro", "rive-gauche"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par Métro."
+  },
+  {
+    "id": "raspail",
+    "name": "Raspail",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-41",
+      "ligne-astuce-pro",
+      "ligne-f7",
+      "rive-gauche"
+    ],
+    "notoriety": 79,
+    "blurb": "Arrêt desservi par 41, Astuce Pro, F7."
+  },
+  {
+    "id": "renaudel",
+    "name": "Renaudel",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "hub-3-lignes", "ligne-a", "ligne-b", "ligne-d2", "ligne-f"],
+    "notoriety": 83,
+    "blurb": "Arrêt desservi par A, B, D2, F."
+  },
+  {
+    "id": "republique",
+    "name": "République",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-11",
+      "ligne-f1",
+      "ligne-f7",
+      "ligne-noctambus",
+      "ligne-t1",
+      "ligne-t2",
+      "ligne-t3",
+      "rive-droite",
+      "teor"
+    ],
+    "notoriety": 95,
+    "blurb": "Arrêt desservi par 11, F1, F7, Noctambus, T1, T2…."
+  },
+  {
+    "id": "republique-quais",
+    "name": "République - quais",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "fast", "hub-3-lignes", "ligne-27", "ligne-33", "ligne-f5", "rive-droite"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par 27, 33, F5."
+  },
+  {
+    "id": "reservoir",
+    "name": "Réservoir",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "fast", "hub-3-lignes", "ligne-22", "ligne-36", "ligne-f2", "rive-droite"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par 22, 36, F2."
+  },
+  {
+    "id": "saint-hilaire",
+    "name": "Saint-Hilaire",
+    "aliases": ["St Hilaire"],
+    "type": "station",
+    "tags": [
+      "arret",
+      "hub-3-lignes",
+      "ligne-t2",
+      "ligne-t3",
+      "ligne-t4",
+      "rive-droite",
+      "teor",
+      "terminus"
+    ],
+    "notoriety": 90,
+    "blurb": "Arrêt desservi par T2, T3, T4."
+  },
+  {
+    "id": "saint-julien",
+    "name": "Saint-Julien",
+    "aliases": ["St Julien"],
+    "type": "station",
+    "tags": ["arret", "ligne-metro", "metro", "rive-gauche", "terminus"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par Métro."
+  },
+  {
+    "id": "saint-marc",
+    "name": "Saint-Marc",
+    "aliases": ["St Marc"],
+    "type": "station",
+    "tags": ["arret", "hub-3-lignes", "ligne-t1", "ligne-t2", "ligne-t3", "rive-droite", "teor"],
+    "notoriety": 90,
+    "blurb": "Arrêt desservi par T1, T2, T3."
+  },
+  {
+    "id": "saint-maur",
+    "name": "Saint-Maur",
+    "aliases": ["St Maur"],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-f2",
+      "ligne-f7",
+      "ligne-noctambus",
+      "rive-droite"
+    ],
+    "notoriety": 81,
+    "blurb": "Arrêt desservi par F2, F7, Noctambus."
+  },
+  {
+    "id": "saint-nicolas",
+    "name": "Saint-Nicolas",
+    "aliases": ["St Nicolas"],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-11",
+      "ligne-f1",
+      "ligne-f7",
+      "ligne-noctambus",
+      "rive-droite"
+    ],
+    "notoriety": 84,
+    "blurb": "Arrêt desservi par 11, F1, F7, Noctambus."
+  },
+  {
+    "id": "saint-sever",
+    "name": "Saint-Sever",
+    "aliases": ["St Sever"],
+    "type": "station",
+    "tags": ["arret", "ligne-metro", "metro", "rive-gauche"],
+    "notoriety": 88,
+    "blurb": "Arrêt desservi par Métro."
+  },
+  {
+    "id": "sainte-claire",
+    "name": "Sainte-Claire",
+    "aliases": ["Ste Claire"],
+    "type": "station",
+    "tags": ["arret", "ligne-t2", "rive-droite", "teor"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par T2."
+  },
+  {
+    "id": "sevaistre-aine",
+    "name": "Sevaistre Aîné",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "hub-3-lignes", "ligne-101", "ligne-b", "ligne-c", "ligne-g"],
+    "notoriety": 76,
+    "blurb": "Arrêt desservi par 101, B, C, G."
+  },
+  {
+    "id": "square-verdrel",
+    "name": "Square Verdrel",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-11",
+      "ligne-15",
+      "ligne-22",
+      "ligne-f2",
+      "ligne-f7",
+      "ligne-noctambus",
+      "rive-droite"
+    ],
+    "notoriety": 87,
+    "blurb": "Arrêt desservi par 11, 15, 22, F2, F7, Noctambus."
+  },
+  {
+    "id": "stade-diochon",
+    "name": "Stade Diochon",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-41",
+      "ligne-f1",
+      "ligne-noctambus",
+      "ligne-t4",
+      "rive-gauche",
+      "teor",
+      "terminus"
+    ],
+    "notoriety": 85,
+    "blurb": "Arrêt desservi par 41, F1, Noctambus, T4."
+  },
+  {
+    "id": "stendhal",
+    "name": "Stendhal",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-noctambus", "ligne-t4", "rive-gauche", "teor"],
+    "notoriety": 77,
+    "blurb": "Arrêt desservi par Noctambus, T4."
+  },
+  {
+    "id": "tamarelle",
+    "name": "Tamarelle",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-10",
+      "ligne-20",
+      "ligne-f2",
+      "ligne-f8",
+      "ligne-t2",
+      "rive-droite",
+      "teor",
+      "terminus"
+    ],
+    "notoriety": 90,
+    "blurb": "Arrêt desservi par 10, 20, F2, F8, T2."
+  },
+  {
+    "id": "technopole",
+    "name": "Technopôle",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-f6",
+      "ligne-metro",
+      "ligne-noctambus",
+      "ligne-t4",
+      "metro",
+      "rive-gauche",
+      "teor",
+      "terminus"
+    ],
+    "notoriety": 90,
+    "blurb": "Arrêt desservi par F6, Métro, Noctambus, T4."
+  },
+  {
+    "id": "theatre-des-arts",
+    "name": "Théatre des Arts",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "hub-5-lignes",
+      "ligne-27",
+      "ligne-33",
+      "ligne-f5",
+      "ligne-f9",
+      "ligne-metro",
+      "ligne-t1",
+      "ligne-t2",
+      "ligne-t3",
+      "metro",
+      "rive-droite",
+      "teor",
+      "terminus"
+    ],
+    "notoriety": 100,
+    "blurb": "Arrêt desservi par 27, 33, F5, F9, Métro, T1…."
+  },
+  {
+    "id": "toit-familial",
+    "name": "Toit Familial",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-metro", "metro", "rive-gauche"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par Métro."
+  },
+  {
+    "id": "touye",
+    "name": "Touyé",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t3", "rive-droite", "teor"],
+    "notoriety": 78,
+    "blurb": "Arrêt desservi par T3."
+  },
+  {
+    "id": "vieux-marche",
+    "name": "Vieux Marché",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-t4", "rive-droite", "teor"],
+    "notoriety": 77,
+    "blurb": "Arrêt desservi par T4."
+  },
+  {
+    "id": "voltaire",
+    "name": "Voltaire",
+    "aliases": [],
+    "type": "station",
+    "tags": ["arret", "ligne-metro", "metro", "rive-gauche"],
+    "notoriety": 80,
+    "blurb": "Arrêt desservi par Métro."
+  },
+  {
+    "id": "zenith-parc-expo",
+    "name": "Zénith Parc Expo",
+    "aliases": [],
+    "type": "station",
+    "tags": [
+      "arret",
+      "fast",
+      "hub-3-lignes",
+      "ligne-f6",
+      "ligne-f9",
+      "ligne-noctambus",
+      "ligne-t4",
+      "rive-gauche",
+      "teor"
+    ],
+    "notoriety": 88,
+    "blurb": "Arrêt desservi par F6, F9, Noctambus, T4."
+  }
+]

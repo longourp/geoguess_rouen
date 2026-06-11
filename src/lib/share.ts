@@ -9,7 +9,7 @@ function tile(points: number | undefined): string {
 }
 
 /** Spoiler-free emoji recap of a finished (or abandoned) grid, à la Wordle. */
-export function buildShareText(state: GameState, puzzle: Puzzle): string {
+export function buildShareText(state: GameState, puzzle: Puzzle, gameTitle: string): string {
   const rows: string[] = [];
   for (let r = 0; r < GRID_SIZE; r++) {
     let line = '';
@@ -21,7 +21,7 @@ export function buildShareText(state: GameState, puzzle: Puzzle): string {
   const title = puzzle.title ? `${puzzle.title} ` : '';
   const solved = Object.keys(state.placed).length;
   return [
-    `GéoGuess Rouen — ${title}(${puzzle.date})`,
+    `${gameTitle} — ${title}(${puzzle.date})`,
     `Score ${state.score}/${SCORING.maxScore} · ${solved}/${CELL_COUNT} cases · ${state.errors} ❌`,
     ...rows,
   ].join('\n');

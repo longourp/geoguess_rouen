@@ -3,12 +3,13 @@ import { SCORING } from '../game';
 import styles from './HelpModal.module.css';
 
 interface Props {
+  intro?: string;
   rows: Category[];
   cols: Category[];
   onClose: () => void;
 }
 
-export function HelpModal({ rows, cols, onClose }: Props) {
+export function HelpModal({ intro, rows, cols, onClose }: Props) {
   const categories = [...new Map([...rows, ...cols].map((c) => [c.id, c])).values()];
 
   return (
@@ -18,9 +19,10 @@ export function HelpModal({ rows, cols, onClose }: Props) {
           ✕
         </button>
         <h2>Comment jouer</h2>
+        {intro && <p>{intro}</p>}
         <p>
-          Remplissez chaque case avec un lieu, une personnalité ou un élément de Rouen qui respecte
-          à la fois le critère de sa <strong>ligne</strong> et celui de sa <strong>colonne</strong>.
+          Remplissez chaque case avec une réponse qui respecte à la fois le critère de sa{' '}
+          <strong>ligne</strong> et celui de sa <strong>colonne</strong>.
         </p>
         <ul className={styles.rules}>
           <li>
